@@ -17,7 +17,6 @@ fe7b6e2fcf3b8f8cb6cd612b6ca3a3ed  usr/lib/nagios/plugins/check_disks.pl
 01a1f971f51ae9b7fb57697c98db8416  usr/lib/nagios/plugins/check_dp_services
 1ca3bebeab21e16f00de2415ca5b4111  usr/lib/nagios/plugins/check_dp_tablespace
 9f135f97f5d0950b61428454322bb4f2  usr/lib/nagios/plugins/check_dp_tablespace.sh
-6424d7b18102a40d5d47727f1e406ce6  usr/lib/nagios/plugins/check_drbd
 7c612f466e60fbef31bdc90db0f34567  usr/lib/nagios/plugins/check_emc_centera.pl
 7bf660520801816e8328be5d4ee2c290  usr/lib/nagios/plugins/check_emc_clariion.pl
 5147e83683066a3dd547c5942a1f07dc  usr/lib/nagios/plugins/check_eva.py
@@ -26,7 +25,6 @@ decb788dd3dcfdffed126149865a166d  usr/lib/nagios/plugins/check_exchange_storageg
 6f068019296b89eb6cb08008afc30f0b  usr/lib/nagios/plugins/check_hpacucli.py
 36867c9c0ba4c52679941d08809cdf46  usr/lib/nagios/plugins/check_hparray
 afc434bf465380b53307c3bb7083c5a7  usr/lib/nagios/plugins/check_hparray.cfg
-b1139a8d589e28b9ff71ffeb709d5ccf  usr/lib/nagios/plugins/check_hpasm
 0fa9509828360942c6f14813a7cf1ffb  usr/lib/nagios/plugins/check_http_multi
 cf63cf24605c2d129c8cf6bfd56499f9  usr/lib/nagios/plugins/check_http_ntlm.pl
 4ac7db16ece969e6f93e6a35c6faa737  usr/lib/nagios/plugins/check_ibm_bladecenter.py
@@ -41,7 +39,6 @@ efa614445df0bdedf0a3d151294576c0  usr/lib/nagios/plugins/check_kerb.sh
 811369dbf1ba26e4442a77f30b02f7f1  usr/lib/nagios/plugins/check_msa_hardware
 ef3b7cd05e6189c424c4488315084902  usr/lib/nagios/plugins/check_mssql_query.py
 c7c3fb336295092852065dbd2654f66d  usr/lib/nagios/plugins/check_mtr
-77e0b024f69f5ee129736c186f9def1d  usr/lib/nagios/plugins/check_multipath
 5107e8b9358b130037f0aa4f6bdf4212  usr/lib/nagios/plugins/check_nagios_configuration
 c68f64ece9d725312215f88853c57d03  usr/lib/nagios/plugins/check_nagios_ghostservices
 6e94271eae6642e96b193a596fca332b  usr/lib/nagios/plugins/check_nagios_needs_reload
@@ -59,15 +56,7 @@ be2f7a577bffde522c4bac104d11d951  usr/lib/nagios/plugins/check_rhcs_fence
 a49eb7355ce0a7be51afe0c52ca95fdf  usr/lib/nagios/plugins/check_smssend
 bc8cd7993a5563562a7e4b216a9437e3  usr/lib/nagios/plugins/check_snmp_apc_ups
 a994184552bdb0324c0996edfc83509c  usr/lib/nagios/plugins/check_snmp_connectivity
-183c7e997f5dd88936d839efbfcc453b  usr/lib/nagios/plugins/check_snmp_cpfw.pl
-cbd27809730f57fe24e11a1b6ef41e4e  usr/lib/nagios/plugins/check_snmp_env.pl
-ecfe54d2d73427937725e60cbab44f0f  usr/lib/nagios/plugins/check_snmp_int.pl
-7fbe88b650cff261266d929604452336  usr/lib/nagios/plugins/check_snmp_interfaces
-07f0b1abae13e7094ca0ec7e70cfcf34  usr/lib/nagios/plugins/check_snmp_load.pl
-e4ed7de9d3823a5a837929f8fcde4ccd  usr/lib/nagios/plugins/check_snmp_mem.pl
-b7d5e402816b603222009fa21b0b5306  usr/lib/nagios/plugins/check_snmp_patchlevel.pl
 5048a54719b5bc9abfc167d41e1ac4ad  usr/lib/nagios/plugins/check_snmp_tcpconnection.sh
-81c95c4b50026de5dbb91e8f5491baec  usr/lib/nagios/plugins/check_snmp_temperature.pl
 30462eb946d2aded7425c9fab04248d1  usr/lib/nagios/plugins/check_squid.pl
 216b7727cf0bf1609234c273758095a7  usr/lib/nagios/plugins/check_storwize.py
 cb017c96a203344d0db3c6deedd985db  usr/lib/nagios/plugins/check_tftp.py

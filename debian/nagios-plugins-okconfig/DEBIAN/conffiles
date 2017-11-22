@@ -1,15 +1,12 @@
 /etc/nagios/nrpe.d/check_bond.cfg
 /etc/nagios/nrpe.d/check_cpu.cfg
 /etc/nagios/nrpe.d/check_dataprotector.cfg
-/etc/nagios/nrpe.d/check_drbd.cfg
 /etc/nagios/nrpe.d/check_eva.cfg
 /etc/nagios/nrpe.d/check_firewall_active.cfg
 /etc/nagios/nrpe.d/check_hpacucli.cfg
-/etc/nagios/nrpe.d/check_hpasm.cfg
 /etc/nagios/nrpe.d/check_ipa.cfg
 /etc/nagios/nrpe.d/check_module.cfg
 /etc/nagios/nrpe.d/check_msa_hardware.cfg
-/etc/nagios/nrpe.d/check_multipath.cfg
 /etc/nagios/nrpe.d/check_nagios.cfg
 /etc/nagios/nrpe.d/check_package_updates.cfg
 /etc/nagios/nrpe.d/check_rhcs.cfg
@@ -20,5 +17,4 @@
 /etc/nagios/nrpe.d/okplugin_check_cpu.cfg
 /etc/sudoers.d/check_firewall_active
 /etc/sudoers.d/check_hpacucli
-/etc/sudoers.d/check_hpasm
 /etc/sudoers.d/check_yum

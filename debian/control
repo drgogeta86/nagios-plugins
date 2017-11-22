@@ -10,6 +10,5 @@ Homepage: http://www.par-tec.it
 
 Package: nagios-plugins-okconfig
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Additional Plugins for Nagios / NRPE
 	Tbd

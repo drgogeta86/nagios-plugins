@@ -38,7 +38,7 @@ install:
 	cp ./check_dataprotector/check_dp_tablespace $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_dataprotector/check_dp_tablespace.sh $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_disks.pl/check_disks.pl $(DESTDIR)/usr/lib/nagios/plugins/
-	#cp ./check_drbd/check_drbd $(DESTDIR)/usr/lib/nagios/plugins/
+	cp ./check_drbd/check_drbd $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_emc_clariion/capacity.cli $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_emc_clariion/check_emc_centera.pl $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_emc_clariion/check_emc_clariion.pl $(DESTDIR)/usr/lib/nagios/plugins/
@@ -50,7 +50,7 @@ install:
 	cp ./check_hpacucli/check_hpacucli.py $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_hparray/check_hparray $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_hparray/check_hparray.cfg $(DESTDIR)/usr/lib/nagios/plugins/
-	#cp ./check_hpasm/check_hpasm $(DESTDIR)/usr/lib/nagios/plugins/
+	cp ./check_hpasm/check_hpasm $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_http_multi/check_http_multi $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_http_ntlm/check_http_ntlm.pl $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_ibm_bladecenter/check_ibm_bladecenter.py $(DESTDIR)/usr/lib/nagios/plugins/
@@ -66,6 +66,7 @@ install:
 	cp ./check_lvm_mirror/check_lvm_mirror.py $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_msa_hardware-pl/check_msa_hardware $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_mtr/check_mtr $(DESTDIR)/usr/lib/nagios/plugins/
+	cp ./check_multipath/check_multipath $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_nagios/check_nagios_configuration $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_nagios/check_nagios_ghostservices $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_nagios/check_nagios_needs_reload $(DESTDIR)/usr/lib/nagios/plugins/
@@ -80,14 +81,14 @@ install:
 	cp ./check_selinux/check_selinux $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_smssend/check_smssend $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_snmp/check_snmp_connectivity $(DESTDIR)/usr/lib/nagios/plugins/
-	#cp ./check_snmp/check_snmp_cpfw.pl $(DESTDIR)/usr/lib/nagios/plugins/
-	#cp ./check_snmp/check_snmp_env.pl $(DESTDIR)/usr/lib/nagios/plugins/
-	#cp ./check_snmp/check_snmp_int.pl $(DESTDIR)/usr/lib/nagios/plugins/
-	#cp ./check_snmp/check_snmp_interfaces $(DESTDIR)/usr/lib/nagios/plugins/
-	#cp ./check_snmp/check_snmp_load.pl $(DESTDIR)/usr/lib/nagios/plugins/
-	#cp ./check_snmp/check_snmp_mem.pl $(DESTDIR)/usr/lib/nagios/plugins/
-	#cp ./check_snmp/check_snmp_patchlevel.pl $(DESTDIR)/usr/lib/nagios/plugins/
-	#cp ./check_snmp/check_snmp_temperature.pl $(DESTDIR)/usr/lib/nagios/plugins/
+	cp ./check_snmp/check_snmp_cpfw.pl $(DESTDIR)/usr/lib/nagios/plugins/
+	cp ./check_snmp/check_snmp_env.pl $(DESTDIR)/usr/lib/nagios/plugins/
+	cp ./check_snmp/check_snmp_int.pl $(DESTDIR)/usr/lib/nagios/plugins/
+	cp ./check_snmp/check_snmp_interfaces $(DESTDIR)/usr/lib/nagios/plugins/
+	cp ./check_snmp/check_snmp_load.pl $(DESTDIR)/usr/lib/nagios/plugins/
+	cp ./check_snmp/check_snmp_mem.pl $(DESTDIR)/usr/lib/nagios/plugins/
+	cp ./check_snmp/check_snmp_patchlevel.pl $(DESTDIR)/usr/lib/nagios/plugins/
+	cp ./check_snmp/check_snmp_temperature.pl $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_squid/check_squid.pl $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_storwize/check_storwize.py $(DESTDIR)/usr/lib/nagios/plugins/
 	cp ./check_storwize/test.sh $(DESTDIR)/usr/lib/nagios/plugins/
@@ -110,14 +111,15 @@ install:
 	cp ./check_cpu.py/nrpe.d/okplugin_check_cpu.cfg $(DESTDIR)/etc/nagios/nrpe.d/
 	cp ./check_cpu.sh/nrpe.d/check_cpu.cfg $(DESTDIR)/etc/nagios/nrpe.d/
 	cp ./check_dataprotector/nrpe.d/check_dataprotector.cfg $(DESTDIR)/etc/nagios/nrpe.d/
-	#cp ./check_drbd/nrpe.d/check_drbd.cfg $(DESTDIR)/etc/nagios/nrpe.d/
+	cp ./check_drbd/nrpe.d/check_drbd.cfg $(DESTDIR)/etc/nagios/nrpe.d/
 	cp ./check_eva/nrpe.d/check_eva.cfg $(DESTDIR)/etc/nagios/nrpe.d/
 	cp ./check_firewall_active/nrpe.d/check_firewall_active.cfg $(DESTDIR)/etc/nagios/nrpe.d/
 	cp ./check_hpacucli/nrpe.d/check_hpacucli.cfg $(DESTDIR)/etc/nagios/nrpe.d/
-	#cp ./check_hpasm/nrpe.d/check_hpasm.cfg $(DESTDIR)/etc/nagios/nrpe.d/
+	cp ./check_hpasm/nrpe.d/check_hpasm.cfg $(DESTDIR)/etc/nagios/nrpe.d/
 	cp ./check_ipa/nrpe.d/check_ipa.cfg $(DESTDIR)/etc/nagios/nrpe.d/
 	cp ./check_linux_modules.pl/nrpe.d/check_module.cfg $(DESTDIR)/etc/nagios/nrpe.d/
 	cp ./check_msa_hardware-pl/nrpe.d/check_msa_hardware.cfg $(DESTDIR)/etc/nagios/nrpe.d/
+	cp ./check_multipath/nrpe.d/check_multipath.cfg $(DESTDIR)/etc/nagios/nrpe.d/
 	cp ./check_nagios/nrpe.d/check_nagios.cfg $(DESTDIR)/etc/nagios/nrpe.d/
 	cp ./check_package_updates/nrpe.d/check_package_updates.cfg $(DESTDIR)/etc/nagios/nrpe.d/
 	cp ./check_rhcs/nrpe.d/check_rhcs.cfg $(DESTDIR)/etc/nagios/nrpe.d/
@@ -131,6 +133,6 @@ install:
 
 	cp ./check_firewall_active/sudoers.d/check_firewall_active $(DESTDIR)/etc/sudoers.d/
 	cp ./check_hpacucli/sudoers.d/check_hpacucli $(DESTDIR)/etc/sudoers.d/
-	#cp ./check_hpasm/sudoers.d/check_hpasm $(DESTDIR)/etc/sudoers.d/
+	cp ./check_hpasm/sudoers.d/check_hpasm $(DESTDIR)/etc/sudoers.d/
 	cp ./check_yum/sudoers.d/check_yum $(DESTDIR)/etc/sudoers.d/
 

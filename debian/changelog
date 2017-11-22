@@ -1,0 +1,5 @@
+nagios-plugins-okconfig (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- unknown <fabio.isgro@par-tec.it>  Wed, 22 Nov 2017 11:47:52 +0100

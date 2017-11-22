@@ -1,0 +1,15 @@
+Source: nagios-plugins-okconfig
+Section: unknown
+Priority: optional
+Maintainer: Fabio Isgr√  <fabio.isgro@par-tec.it>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: http://www.par-tec.it
+#Vcs-Git: git://anonscm.debian.org/collab-maint/nagios-plugins-okconfig.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/nagios-plugins-okconfig.git;a=summary
+
+Package: nagios-plugins-okconfig
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Additional Plugins for Nagios / NRPE
+	Tbd

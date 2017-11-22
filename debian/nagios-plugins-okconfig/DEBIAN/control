@@ -1,0 +1,10 @@
+Package: nagios-plugins-okconfig
+Version: 1.0-1
+Architecture: amd64
+Maintainer: Fabio Isgr√  <fabio.isgro@par-tec.it>
+Installed-Size: 974
+Section: unknown
+Priority: optional
+Homepage: http://www.par-tec.it
+Description: Additional Plugins for Nagios / NRPE
+ Tbd
